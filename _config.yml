@@ -11,6 +11,8 @@ baseurl: ''
 nav:
   home: '/'
   tags: '/tags.html'
+  OJ: 'https://ojtest.cyanoxygen.xyz/'
+  Gitlab: 'https://gitlab.cyanoxygen.xyz/'
 
 # Footer
 footer:
