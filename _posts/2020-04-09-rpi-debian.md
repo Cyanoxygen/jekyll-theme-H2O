@@ -4,7 +4,7 @@ title: "为树莓派 4 安装纯净的 arm64 Debian GNU/Linux 系统"
 date: 2020-04-09
 author: Cyanoxygen
 cover: '/assets/img/hero.png'
-tags: Debian, Raspberry Pi
+tags: Debian Raspberry Pi
 ---
 
 # 为树莓派 4 安装 arm64 的 Debian
@@ -436,6 +436,7 @@ A：确实可以做到。对内核模块 `snd_bcm2835` 指定参数即可让声�
 
 A：的确是真的！你真的可以跑出至少 990Mbps 的下载速度。
 - 以下是台式机和树莓派之间 `iperf3` 的结果。
+
     ```
     $ iperf3 -c 192.168.1.4 -p 2333
     Connecting to host 192.168.1.4, port 2333
@@ -460,6 +461,7 @@ A：的确是真的！你真的可以跑出至少 990Mbps 的下载速度。
     ```
 
 - 以下是树莓派与台式机之间 `iperf3` 的结果。
+
     ```
     $ iperf3 -c 192.168.1.254 -p 2333
     Connecting to host 192.168.1.254, port 2333
@@ -486,4 +488,4 @@ A：的确是真的！你真的可以跑出至少 990Mbps 的下载速度。
 
 在文章的最后，希望大家能多多支持原文章作者和我！Enjoy your Pure Debian experience with your Raspberry Pi!
 
-Cyanoxygen, Licensed under CC BY-SA NC 3.0.
+Copyright (C) Cyanoxygen, published under CC BY-SA NC 3.0.
